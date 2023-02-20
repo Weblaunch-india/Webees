@@ -1,5 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>MEDSTAR</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+
+<body style="background-color: darkslategray; color: aliceblue;">
+
+<!---------------------------------------Navigation------------------------------------------------>
+<header>
+    <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <img src="images/logo.png" alt="" height="100px">&nbsp;&nbsp;&nbsp;
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#carouselExampleInterval">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#outer">About Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</header>
+<br><br><br><br>
+<!-------------------------------Slides------------------------------------------------>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="images/slide1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/slide2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/slide3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-------------------------------Services------------------------------------------------>
+<section class="Services">
+  <br><br>
+<h4 id="Services" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Our Services</h4>
+<br>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/tests.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Medical Tests</h5>
+        <p class="card-text" >Medical tests can help detect a condition, determine a diagnosis, plan treatment, check to see if treatment is working, or monitor the condition over time. A doctor may order these tests as part of a routine checkup, to check for certain diseases and disorders, or to monitor your health.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/emergency.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Emergency Services</h5>
+        <p class="card-text">Ambulance services in NSW are provided free of charge to concession card holders, including pensioners. NSW Ambulance also has a policy in place for patients who are under financial hardship and unable to pay for our services.24 hours patient transport vehicle available. Patients are transported from home (on campus) to IIT hospital and patients referred by emergency duty doctor to empanelled hospital for specialized care.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/Out patient.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Out Patient</h5>
+        <p class="card-text">Patients are registered at the reception and are seen on first come, first serve basis, however out of turn consultation may be provided in case of emergency and senior citizen. Patients have the right to consult any doctor. In OPD, clinical consultation is provided to patients which includes history taking, clinical examination, diagnosis and providing prescription to patients besides advising laboratory tests in some cases.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/Tata-Winger-Ambulance.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ambullance</h5>
+        <p class="card-text">Ambulance services in NSW are provided free of charge to concession card holders,
+          including pensioners. NSW Ambulance also has a policy in place for patients who are under financial hardship and unable to pay for our services.
+          24 hours patient transport vehicle available. Patients are transported from home (on campus) to hospital and patients referred by emergency duty doctor to empanelled hospital for specialized care.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/Surgery.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cancer Care</h5>
+        <p class="card-text">Cancer Care, we offer a holistic integrated care by consolidating views of experts in Surgical Oncology, Radiation Oncology, and Medical Oncology.We believe in treating Cancer with a combination of Chemotherapy, Radiation Therapy, Surgery and Targeted Therapy. We are the first facility in northern India to acquire Novalis Tx for IMRT/IGRT, Radiosurgery, HIPEC and SRS/SRT. Additionally, we are equipped with an advanced Da Vinci XI Robotic System for treating complex conditions like cancers of prostate, cervix, colon/rectum, as well as heart tumors. The procedure is the next frontier for minimally invasive surgery.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/24x7.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">24 x 7</h5>
+        <p class="card-text">If you have a health concern and can’t reach a doctor right away, or you’re not sure where else to call,
+          you can call our Medical Help Line 24 hours a day, 7 days a week.
+          Once enrolled, this member benefit allows you to speak with an experienced registered nurse to get answers 
+         to your questions and find out what steps you need to take. If you are currently a member of Independent Health, 
+         you can find the phone number of the 24-Hour Medical Help Line on the back of your Member ID card</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-------------------------------About Us------------------------------------------------>
+<section id="outer">
+  <section class="inner">
+    <section class="text">
+      <h4>About Us</h4>
+      <p id="context">At MediStar Hospitals, you can always count on the team of best doctors and 
+        surgeons, clinical excellence, and ever-evolving innovative facilities and services. 
+        Comprehensive facilities and latest technologies offer all-round care and best possible medical outcomes.
+         All specialties and super-specialties provide consultations, 
+        complete laboratory & diagnostic services under one roof to offer easily accessible, 
+        affordable and round-the-clock healthcare.</p>
+    </section>
+  </section>
+</section>
+
+
+<!-------------------------------Contact------------------------------------------------>
+<section id="Contact">
+<section class="inner">
+  <h4>Contact Us</h4>
+<section class="details">
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Phone No</label>
+    <input type="number" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Send updates
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+</section>
+</section>
+</section>
+
+<!-------------------------------Footer------------------------------------------------>
+<footer>
+  <div class="p-3 mb-2 bg-dark text-white">
+  <div class="data"> 
+    <div class="details">
+      <h5>Address: </h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+    </div>
+  <div class="details">
+    <h5>Email: </h5>support@medstar.in <br>
+  </div>
+  <div class="details">
+    <h5>Phone No: </h5>7020425327<br>
+  </div>
+</div>
+</div>
+<div class="p-3 mb-2 bg-dark text-white">
+  <div class="data"> 
+<div class="details">
+  <h5>Follow Us : </h5>
+</div>
+<div class="details">
+  <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/instagram.png" alt="" height="30px"></a>
+</div>
+<div class="details">
+  <a href="https://www.linkedin.com/company/linkedin/?originalSubdomain=in" target="_blank"><img src="images/linkedin.png" alt="" height="30px"></a>
+</div>
+<div class="details">
+  <a href="https://twitter.com/?lang=en-in" target="_blank"><img src="images/twitter.png" alt="" height="30px"></a>
+</div>
+</div>
+</div>
+</footer>
+
+
+</body>
+</html>
+=======
 
 <head>
   <meta charset="utf-8">
